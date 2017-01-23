@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/abu2tua"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvRegisterLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have Account ?, Register Here"
+        android:layout_gravity="center"
+        android:layout_marginTop="63dp"
+        android:layout_alignTop="@+id/bLogin"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/putih"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bLogin"
+        android:text="Login"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignStart="@+id/etPassword"
+        android:textColor="@color/putih"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsername"
+        android:hint="Username"
+        android:textColorHint="@color/putih"
+        android:background="@drawable/edittext_login_form"
+        android:inputType="text"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/bLogin"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:hint="Password"
+        android:textColorHint="@color/putih"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_login_form"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/etUsername"
+        android:layout_alignStart="@+id/etUsername" />
+</RelativeLayout>

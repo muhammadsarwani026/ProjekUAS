@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/abu2tua">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName"
+        android:hint="Name"
+        android:textColorHint="@color/putih"
+        android:background="@drawable/edittext_login_form"
+        android:inputType="text"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/etUsername"
+        android:layout_alignLeft="@+id/etUsername"
+        android:layout_alignStart="@+id/etUsername" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsername"
+        android:hint="Username"
+        android:textColorHint="@color/putih"
+        android:background="@drawable/edittext_login_form"
+        android:inputType="text"
+        android:layout_marginBottom="50dp"
+        android:layout_alignBottom="@+id/etPassword"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignStart="@+id/etPassword" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bRegister"
+        android:text="Register"
+
+        android:textColor="@color/putih"
+        android:layout_marginBottom="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:hint="Password"
+        android:textColorHint="@color/putih"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_login_form"
+        android:layout_marginBottom="29dp"
+        android:layout_above="@+id/bRegister"
+        android:layout_alignLeft="@+id/bRegister"
+        android:layout_alignStart="@+id/bRegister" />
+</RelativeLayout>
